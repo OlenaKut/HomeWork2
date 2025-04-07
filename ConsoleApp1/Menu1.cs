@@ -43,22 +43,21 @@ internal class Menu1
                 int age = 0;
                 if (int.TryParse(userAgeMany, out age))
                 {
-                    if (age <= 20)
+                    if (age <= 20 && age > 5)
                     {
                         Console.WriteLine($"Your price for {ticketCount} persons is: {youthPrice * ticketCount}kr.");
-                        
                     }
-                    else if (age >= 64)
+                    else if (age >= 64 && age < 100)
+                    {
+                        Console.WriteLine($"Your price for {ticketCount} persons is: {pensPrice * ticketCount}kr.");
+                    }
+                    else if (age > 20 && age < 64)
                     {
                         Console.WriteLine($"Your price for {ticketCount} persons is: {pensPrice * ticketCount}kr");
                     }
-                    else if (age >= 100 && age <= 5)
-                    {
-                        Console.WriteLine("You can watch for free.");
-                    }
                     else
                     {
-                        Console.WriteLine($"Your price for {ticketCount} persons is: {adultPrice * ticketCount}kr.");
+                        Console.WriteLine("You can watch for free.");
                     }
                     Console.WriteLine("Press * to go back to the main menu.");
                     Console.WriteLine("Press 0 to exit.");
@@ -80,17 +79,21 @@ internal class Menu1
         int age = 0;
         if (int.TryParse(userAgeOne, out age))
         {
-            if (age <= 20)
+            if (age <= 20 && age > 5)
             {
                 Console.WriteLine($"Youth price: {youthPrice}");
             }
-            else if (age >= 64)
+            else if (age >= 64 && age < 100)
             {
                 Console.WriteLine($"Pensioner price: {pensPrice}kr");
             }
-            else
+            else if (age > 20 && age < 64)
             {
                 Console.WriteLine($"Adult price: {adultPrice}kr.");
+            }
+            else
+            {
+                Console.WriteLine("You can watch for free.");
             }
             Console.WriteLine("Press * to go back to the main menu.");
             Console.WriteLine("Press 0 to exit.");
