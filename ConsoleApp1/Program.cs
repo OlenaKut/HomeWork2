@@ -16,6 +16,7 @@ internal class Program
         Console.WriteLine("Welcome to the Main Menu!");
         Console.WriteLine("Press 1 to go to Bio.");
         Console.WriteLine("Press 2 to repeat input 10 times.");
+        Console.WriteLine("Press 3 to play with the strings.");
         Console.WriteLine("Press 0 to exit.");
 
         bool isAlive = true;

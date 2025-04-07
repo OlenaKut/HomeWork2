@@ -52,6 +52,10 @@ internal class Menu1
                     {
                         Console.WriteLine($"Your price for {ticketCount} persons is: {pensPrice * ticketCount}kr");
                     }
+                    else if (age >= 100 && age <= 5)
+                    {
+                        Console.WriteLine("You can watch for free.");
+                    }
                     else
                     {
                         Console.WriteLine($"Your price for {ticketCount} persons is: {adultPrice * ticketCount}kr.");
