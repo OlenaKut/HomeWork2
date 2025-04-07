@@ -59,7 +59,7 @@ internal class Menu1
                     {
                         Console.WriteLine("You can watch for free.");
                     }
-                    Console.WriteLine("Press * to go back to the main menu.");
+                    Console.WriteLine("Press any key to go back to the main menu.");
                     Console.WriteLine("Press 0 to exit.");
                 }
             }
@@ -94,7 +94,7 @@ internal class Menu1
             {
                 Console.WriteLine("You can watch for free.");
             }
-            Console.WriteLine("Press * to go back to the main menu.");
+            Console.WriteLine("Press any key to go back to the main menu.");
             Console.WriteLine("Press 0 to exit.");
         }
     }
