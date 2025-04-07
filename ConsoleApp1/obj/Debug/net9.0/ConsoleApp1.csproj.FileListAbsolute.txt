@@ -8,3 +8,4 @@
 /Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.dll
 /Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/obj/Debug/net9.0/refint/ConsoleApp1.dll
 /Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.pdb
+/Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.sourcelink.json
