@@ -18,7 +18,7 @@ internal class Menu1
     public static void Bio()
 
     {
-        Console.WriteLine("You have selected 1 from the main menu.");
+        Console.WriteLine("You have selected to go to Bio.");
         Console.Write("How many tickets do you want to buy?");
         string userValue = Console.ReadLine() ?? string.Empty;
 
@@ -45,15 +45,16 @@ internal class Menu1
                 {
                     if (age <= 20)
                     {
-                        Console.WriteLine($"Youth price: {youthPrice * ticketCount}kr.");
+                        Console.WriteLine($"Your price for {ticketCount} persons is: {youthPrice * ticketCount}kr.");
+                        
                     }
                     else if (age >= 64)
                     {
-                        Console.WriteLine($"Pensioner price: {pensPrice * ticketCount}kr");
+                        Console.WriteLine($"Your price for {ticketCount} persons is: {pensPrice * ticketCount}kr");
                     }
                     else
                     {
-                        Console.WriteLine($"Adult price: {adultPrice * ticketCount}kr.");
+                        Console.WriteLine($"Your price for {ticketCount} persons is: {adultPrice * ticketCount}kr.");
                     }
                     Console.WriteLine("Press * to go back to the main menu.");
                     Console.WriteLine("Press 0 to exit.");

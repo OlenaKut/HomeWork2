@@ -15,6 +15,7 @@ internal class Program
     {
         Console.WriteLine("Welcome to the Main Menu!");
         Console.WriteLine("Press 1 to go to Bio.");
+        Console.WriteLine("Press 2 to repeat input 10 times.");
         Console.WriteLine("Press 0 to exit.");
 
         bool isAlive = true;
@@ -22,6 +23,13 @@ internal class Program
         do
         {
             string input = Console.ReadLine()?.ToUpper() ?? string.Empty;
+
+
+            if (input == "*")
+            {
+                Console.WriteLine("Returning to the Main Menu...");
+                continue;
+            }
 
             switch (input)
             {
@@ -31,6 +39,9 @@ internal class Program
                     break;
                 case "1":
                     Menu1.Bio();
+                    break;
+                case "2":
+                    Menu2.RepeatInputTenTimes();
                     break;
                 default:
                     Console.WriteLine("Please select a valid choice!");
