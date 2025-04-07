@@ -1,0 +1,10 @@
+/Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/bin/Debug/net9.0/ConsoleApp1
+/Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/bin/Debug/net9.0/ConsoleApp1.dll
+/Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/bin/Debug/net9.0/ConsoleApp1.pdb
+/Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.AssemblyInfoInputs.cache
+/Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.AssemblyInfo.cs
+/Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.csproj.CoreCompileInputs.cache
+/Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.dll
+/Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/obj/Debug/net9.0/refint/ConsoleApp1.dll
+/Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.pdb
