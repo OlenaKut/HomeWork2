@@ -44,6 +44,9 @@ internal class Program
                 case "2":
                     Menu2.RepeatInputTenTimes();
                     break;
+                case "3":
+                    Menu3.PlayWithStrings();
+                    break;
                 default:
                     Console.WriteLine("Please select a valid choice!");
                     break;

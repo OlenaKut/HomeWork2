@@ -72,8 +72,7 @@ internal class Menu1
     }
     public static void BuyOneTicket()
     {
-        Console.WriteLine("You have selected to buy one ticket.");
-        Console.WriteLine("Press * to go back to the main menu.");
+        Console.WriteLine("You have selected to buy one ticket.");       
         Console.WriteLine("How old are you?");
         string userAgeOne = Console.ReadLine() ?? string.Empty;
         int age = 0;

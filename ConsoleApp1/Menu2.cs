@@ -7,7 +7,6 @@ internal class Menu2
 {
     public static void RepeatInputTenTimes()
     {
-        Console.Clear();
         Console.Write("Enter a text to repeat: ");
         string userInput = Console.ReadLine() ?? string.Empty;
 
