@@ -27,26 +27,11 @@ internal class Menu3
                 Console.WriteLine("The second word is: " + words[1]);
                 Console.WriteLine("The third word is: " + words[2]);
                 Console.WriteLine("The last word is: " + words[words.Length - 1]);
-            }
-
-            Console.WriteLine("\nPress * to go back to the main menu.");
-            Console.WriteLine("Press 0 to exit.");
-
-            string choice = Console.ReadLine() ?? string.Empty;
-
-            if (choice == "*")
-            {
                 inMenu = false;
             }
-            else if (choice == "0")
-            {
-                Console.WriteLine("Exiting the program. Goodbye!");
-                Environment.Exit(0); // Avslutar programmet
-            }
-            else
-            {
-                Console.WriteLine("Invalid input. Please try again.");
-            }
+
+            Menu1.ReturnOrExit();
+
         }
     }
 }

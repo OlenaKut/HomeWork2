@@ -17,7 +17,7 @@ internal class Menu2
             if (i < 10) Console.Write(", ");
         }
         Console.WriteLine();
-        Console.WriteLine("Press any key to go back to the main menu.");
-        Console.WriteLine("Press 0 to exit.");
+        Menu1.ReturnOrExit();
+
     }
 }

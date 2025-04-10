@@ -59,20 +59,16 @@ internal class Menu1
                     {
                         Console.WriteLine("You can watch for free.");
                     }
-                    Console.WriteLine("Press any key to go back to the main menu.");
-                    Console.WriteLine("Press 0 to exit.");
+                    ReturnOrExit();
                 }
             }
 
         }
 
-
-
-
     }
     public static void BuyOneTicket()
     {
-        Console.WriteLine("You have selected to buy one ticket.");       
+        Console.WriteLine("You have selected to buy one ticket.");
         Console.WriteLine("How old are you?");
         string userAgeOne = Console.ReadLine() ?? string.Empty;
         int age = 0;
@@ -80,7 +76,7 @@ internal class Menu1
         {
             if (age <= 20 && age > 5)
             {
-                Console.WriteLine($"Youth price: {youthPrice}");
+                Console.WriteLine($"Pensioner price: {youthPrice}kr");
             }
             else if (age >= 64 && age < 100)
             {
@@ -94,9 +90,14 @@ internal class Menu1
             {
                 Console.WriteLine("You can watch for free.");
             }
-            Console.WriteLine("Press any key to go back to the main menu.");
-            Console.WriteLine("Press 0 to exit.");
+            ReturnOrExit();
         }
+    }
+
+    public static void ReturnOrExit()
+    {
+        Console.WriteLine("Press any key to go back to the main menu.");
+        Console.WriteLine("Press 0 to exit.");
     }
 
 

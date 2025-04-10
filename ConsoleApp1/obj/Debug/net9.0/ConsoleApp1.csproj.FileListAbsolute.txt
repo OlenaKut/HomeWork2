@@ -9,3 +9,7 @@
 /Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/obj/Debug/net9.0/refint/ConsoleApp1.dll
 /Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.pdb
 /Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.sourcelink.json
+/Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/bin/Debug/net9.0/ConsoleApp1.deps.json
+/Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/bin/Debug/net9.0/ConsoleApp1.runtimeconfig.json
+/Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.genruntimeconfig.cache
+/Users/olenakutasevych/Desktop/Lexicon/Övningar/HomeWork2/ConsoleApp1/obj/Debug/net9.0/ref/ConsoleApp1.dll
